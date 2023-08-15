@@ -1,0 +1,44 @@
+.SearchBox {
+  @apply relative mx-auto my-0 flex w-125 justify-between;
+
+  @media (max-width: 600px) {
+    width: 390px;
+  }
+
+  @media (max-width: 420px) {
+    @apply w-full;
+  }
+}
+
+.SearchForm {
+  @apply relative mx-auto h-15 w-106;
+
+  @media (max-width: 600px) {
+    height: 50px;
+    width: 330px;
+  }
+
+  @media (max-width: 420px) {
+    width: calc(100% - 60px);
+  }
+}
+
+.CitySuggestions {
+  @apply absolute z-10 block max-h-[202px] w-full select-none overflow-y-auto rounded-md bg-white p-3.75 shadow-classic transition-all delay-1000;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  > li {
+    @apply mb-2 cursor-pointer text-lg text-clear-black last:mb-0;
+
+    @media (max-width: 600px) {
+      @apply text-base;
+    }
+  }
+
+  .notFound {
+    @apply text-center;
+  }
+}

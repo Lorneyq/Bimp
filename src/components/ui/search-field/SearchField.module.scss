@@ -1,0 +1,7 @@
+.SearchField {
+  @apply relative h-full w-full rounded-md border-none bg-clear-white py-3.75 pl-5 pr-12.5 outline-none;
+
+  @media (max-width: 600px) {
+    @apply py-[10px] pl-[10px] pr-10;
+  }
+}

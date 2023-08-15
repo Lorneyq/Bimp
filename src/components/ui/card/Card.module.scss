@@ -1,0 +1,11 @@
+.Card {
+  @apply relative m-auto my-8 min-h-142 w-125 select-none rounded-lg bg-white px-2.5 pb-4 pt-2.5;
+
+  @media (max-width: 600px) {
+    @apply min-h-[410px] w-[390px] mb-6 mt-6;
+  }
+
+  @media (max-width: 420px) {
+    @apply min-h-[400px] w-full;
+  }
+}

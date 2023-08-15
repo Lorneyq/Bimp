@@ -1,0 +1,7 @@
+.DateSelection {
+  @apply m-auto mt-5 block max-w-50 cursor-pointer select-none border-[3px] border-dashed p-1 outline-none;
+
+  @media (max-width: 600px) {
+    @apply max-w-[170px] mt-3;
+  }
+}

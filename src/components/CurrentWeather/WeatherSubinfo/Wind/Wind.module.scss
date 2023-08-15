@@ -1,0 +1,59 @@
+.Wind {
+  @apply flex items-center justify-between rounded-md bg-clear-white p-2.5 text-white;
+
+  .windDirectionName {
+    @apply text-[24px] mb-1;
+
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 420px) {
+      margin-bottom: 3px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 12px;
+    }
+  }
+
+  .windSpeed {
+    font-size: 24px;
+
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 14px;
+    }
+  }
+
+  .windDirectionImage {
+    @apply mb-1.5 w-19;
+
+    @media (max-width: 600px) {
+      @apply w-[70px] mb-1;
+    }
+
+    @media (max-width: 420px) {
+      @apply w-15;
+    }
+
+    @media (max-width: 360px) {
+      width: 50px;
+    }
+  }
+
+  .windDegree {
+    @apply text-xl;
+
+    @media (max-width: 600px) {
+      @apply text-lg;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 14px;
+    }
+  }
+}

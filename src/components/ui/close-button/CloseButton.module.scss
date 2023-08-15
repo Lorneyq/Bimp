@@ -1,0 +1,7 @@
+.CloseButton {
+  @apply absolute right-[25px] top-[15px] text-3xl;
+
+  @media (max-width: 360px) {
+    @apply text-2xl;
+  }
+}

@@ -1,0 +1,7 @@
+.ForecastButton {
+  @apply absolute left-0 top-4 z-20 h-24 w-24 rounded-md bg-clear-white bg-lg bg-center bg-no-repeat p-4 outline-none;
+
+  @media (max-width: 768px) {
+    @apply relative h-[50px] w-[50px] bg-[length:30px_30px] p-[10px] top-0;
+  }
+}

@@ -1,0 +1,57 @@
+.Toggle {
+  @apply relative inline-flex h-[38px] w-[74px] cursor-pointer select-none rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75;
+
+  background: aquamarine !important;
+
+  > span {
+    @apply inline-block h-4 w-4 translate-y-1/2 transform rounded-full bg-white transition;
+  }
+
+  @media (max-width: 600px) {
+    height: 30px;
+    width: 58px;
+
+    > span {
+      @apply h-3 w-3;
+    }
+  }
+
+  @media (max-width: 360px) {
+    height: 24px;
+    width: 44px;
+
+    > span {
+      height: 10px;
+      width: 10px;
+    }
+  }
+}
+
+.ToggleName {
+  @apply select-none text-[20px] leading-none;
+
+  &:first-child {
+    margin-right: 10px;
+  }
+
+  &:last-child {
+    margin-left: 10px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+.Title {
+  @apply mb-2 text-[32px] text-center;
+
+  @media (max-width: 600px) {
+    margin-bottom: 4px;
+    font-size: 24px;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 20px;
+  }
+}

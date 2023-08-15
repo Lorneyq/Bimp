@@ -1,0 +1,19 @@
+.SelectionButton {
+  @apply select-none rounded-md border-4 bg-gray-400 px-6 py-2 text-[20px] text-white;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  @media (max-width: 600px) {
+    @apply border-[3px] text-[16px] px-6 py-2;
+
+    &:not(:last-child) {
+      margin-right: 14px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    @apply border-[3px] text-[16px] px-4 py-1;
+  }
+}

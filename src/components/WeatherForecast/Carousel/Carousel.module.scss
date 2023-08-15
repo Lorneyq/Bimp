@@ -1,0 +1,64 @@
+.Carousel {
+  @apply mt-[30px] rounded-md bg-black/10 px-[15px] py-5;
+
+  @media (max-width: 600px) {
+    @apply mt-5;
+  }
+
+  @media (max-width: 420px) {
+    @apply px-[10px] py-[15px] mt-4;
+  }
+
+  .card {
+    @apply inline-flex h-[170px] py-[5px] cursor-grab select-none flex-col items-center justify-center rounded-md bg-white;
+
+    @media (max-width: 600px) {
+      height: 120px;
+    }
+
+    @media (max-width: 360px) {
+      height: 100px;
+    }
+  }
+
+  .temperature {
+    @apply text-2xl;
+
+    @media (max-width: 600px) {
+      @apply text-xl;
+    }
+
+    @media (max-width: 360px) {
+      @apply text-lg;
+    }
+  }
+
+  .icon {
+    @apply h-[56px] object-contain;
+
+    @media (max-width: 600px) {
+      height: 50px;
+      width: 50px;
+    }
+
+    @media (max-width: 360px) {
+      @apply h-10 w-10;
+    }
+  }
+
+  .windSpeed {
+    @apply mt-1 text-xl leading-none;
+
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+
+  .time {
+    @apply mt-2 text-lg leading-none text-black/20;
+
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+}

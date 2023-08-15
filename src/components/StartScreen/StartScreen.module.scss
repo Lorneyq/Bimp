@@ -1,0 +1,98 @@
+.logo {
+  @apply relative pr-9;
+
+  background-image: url('./logo.svg');
+  background-position: 100%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+
+  @media (max-width: 600px) {
+    position: relative;
+    padding-right: 29.5px;
+    background-size: 25px;
+  }
+
+  @media (max-width: 420px) {
+    @apply relative pr-6;
+
+    background-size: 20px;
+  }
+
+  @media (max-width: 360px) {
+    @apply relative pr-5;
+
+    background-size: 18px;
+  }
+}
+
+.Welcome {
+  @apply relative top-2 text-[38px] text-center;
+
+  @media (max-width: 600px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 21px;
+  }
+}
+
+.Hint {
+  @apply absolute bottom-5 pr-[10px] text-center;
+
+  @media (max-width: 420px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 14px;
+  }
+
+  &::after {
+    background-image: url('./help-arrow.svg');
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: -165px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+
+    @media (max-width: 600px) {
+      right: -5px;
+      top: -90px;
+      height: 90px;
+      width: 90px;
+    }
+
+    @media (max-width: 480px) {
+      right: 0;
+      top: -80px;
+      height: 80px;
+      width: 80px;
+    }
+
+    @media (max-width: 420px) {
+      right: 8px;
+      top: -75px;
+      height: 70px;
+      width: 70px;
+    }
+
+    @media (max-width: 360px) {
+      right: 4px;
+      top: -65px;
+      height: 60px;
+      width: 60px;
+    }
+  }
+}

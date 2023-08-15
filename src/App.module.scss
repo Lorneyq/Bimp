@@ -1,0 +1,13 @@
+.App {
+  @apply relative m-auto pb-5 pt-16;
+
+  @media (max-width: 768px) {
+    @apply pt-0;
+  }
+}
+
+.Buttons {
+  @media (max-width: 768px) {
+    @apply my-3 flex items-center justify-center gap-2;
+  }
+}

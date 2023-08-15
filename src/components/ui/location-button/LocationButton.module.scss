@@ -1,0 +1,13 @@
+.LocationButton {
+  @apply relative h-15 w-15 rounded-md bg-clear-white bg-[length:40px_40px] bg-center bg-no-repeat;
+
+  @media (max-width: 600px) {
+    height: 50px;
+    width: 50px;
+    background-size: 30px 30px;
+  }
+
+  @media (max-width: 360px) {
+    margin-left: 10px;
+  }
+}

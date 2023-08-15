@@ -1,0 +1,7 @@
+.SearchButton {
+  @apply absolute right-3 top-[18px] h-[25px] w-[25px] bg-contain bg-center bg-no-repeat outline-none;
+
+  @media (max-width: 600px) {
+    @apply right-[13px] top-[15px] h-5 w-5;
+  }
+}

@@ -1,0 +1,38 @@
+.BroadView {
+  @apply mt-[30px] flex h-[236px] px-[15px] py-[10px] select-none flex-col items-center justify-between rounded-md bg-black/10;
+
+  @media (max-width: 600px) {
+    margin-top: 20px;
+    height: 186px;
+  }
+
+  @media (max-width: 420px) {
+    @apply h-[176px] px-[10px] py-[15px] mt-4;
+  }
+
+  @media (max-width: 360px) {
+    height: 156px;
+  }
+
+  > img {
+    height: 90px;
+
+    @media (max-width: 600px) {
+      height: 70px;
+    }
+  }
+}
+
+.temperature {
+  font-size: 32px;
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+.conditions, .windSpeed  {
+  @media (max-width: 600px) {
+    font-size: 18px;
+  }
+}

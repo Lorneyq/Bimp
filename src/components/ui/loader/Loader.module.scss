@@ -1,0 +1,29 @@
+.Text {
+  position: absolute;
+  top: calc(50% + 60px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Animation {
+  width: 150px;
+
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.AnimationWhite {
+  svg path {
+    fill: white;
+    stroke: white;
+  }
+}
+
+.AnimationDark {
+  svg path {
+    fill: black;
+    stroke: black;
+  }
+}

@@ -1,0 +1,64 @@
+.localTime {
+  @apply text-center;
+}
+
+.chanceRain {
+  @apply flex items-center;
+
+  > img {
+    @apply mr-2 h-11;
+
+    @media (max-width: 420px) {
+      @apply mr-[5px] h-9;
+    }
+  }
+}
+
+.humidity {
+  @apply flex items-center;
+
+  > span {
+    @apply relative top-1;
+  }
+
+  > img {
+    @apply ml-2 h-11;
+
+    @media (max-width: 420px) {
+      @apply mr-[5px] h-9;
+    }
+  }
+}
+
+.icon {
+  @apply mx-auto my-0 h-73 w-75 object-contain;
+
+  @media (max-width: 600px) {
+    height: 175px;
+    width: 180px;
+  }
+}
+
+.temperature {
+  @apply block text-center text-7xl;
+
+  @media (max-width: 600px) {
+    font-size: 50px;
+  }
+}
+
+.condition {
+  @apply m-0 text-[40px] mb-6 block text-center;
+
+  @media (max-width: 600px) {
+    @apply text-[30px] mb-5;
+  }
+
+  @media (max-width: 420px) {
+    @apply mb-4;
+  }
+}
+
+.cityName {
+  @apply block text-center;
+}

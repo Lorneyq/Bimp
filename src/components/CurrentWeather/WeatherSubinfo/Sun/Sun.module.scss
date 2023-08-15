@@ -1,0 +1,96 @@
+.Sun {
+  @apply relative h-37.5 rounded-md bg-clear-white p-2.5;
+
+  @media (max-width: 600px) {
+    height: 140px;
+  }
+
+  @media (max-width: 360px) {
+    height: 115px;
+  }
+
+  .sunTimeline {
+    @apply w-32.5;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @media (max-width: 600px) {
+      width: 100px;
+    }
+
+    @media (max-width: 360px) {
+      @apply w-20;
+    }
+  }
+
+  .sunset {
+    @apply -top-0.25 right-2.5 ml-auto;
+
+    @media (max-width: 600px) {
+      right: -2px;
+      top: 3px;
+    }
+
+    @media (max-width: 420px) {
+      right: -11px;
+    }
+
+    @media (max-width: 360px) {
+      right: -6px;
+      top: 2px;
+    }
+  }
+
+  .sunrise {
+    @apply -bottom-3 left-2.5 mr-auto;
+
+    @media (max-width: 600px) {
+      bottom: -16px;
+      left: -3px;
+    }
+
+    @media (max-width: 420px) {
+      left: -11px;
+    }
+
+    @media (max-width: 360px) {
+      bottom: -13px;
+      left: -6px;
+    }
+  }
+
+  .sunset,
+  .sunrise {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 75px;
+
+    img {
+      width: 45px;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 12px;
+
+      img {
+        width: 40px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      font-size: 10px;
+      width: 50px;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

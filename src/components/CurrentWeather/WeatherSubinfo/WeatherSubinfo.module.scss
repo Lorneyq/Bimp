@@ -1,0 +1,12 @@
+.WeatherSubinfo {
+  @apply m-auto grid w-125 select-none grid-cols-2 gap-5;
+
+  @media (max-width: 600px) {
+    width: 390px;
+    gap: 15px;
+  }
+
+  @media (max-width: 420px) {
+    @apply w-full;
+  }
+}

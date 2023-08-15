@@ -1,0 +1,7 @@
+.Toggle {
+  @apply right-[10px] top-[87px] absolute;
+
+  @media (max-width: 600px) {
+    @apply top-[74px] right-0;
+  }
+}

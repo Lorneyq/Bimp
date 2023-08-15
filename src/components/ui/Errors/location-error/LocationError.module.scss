@@ -1,0 +1,17 @@
+.Error {
+  width: 110px;
+
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Text {
+  @apply w-max select-none text-[30px] text-[#9BC9FF];
+
+  position: absolute;
+  top: calc(50% + 100px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

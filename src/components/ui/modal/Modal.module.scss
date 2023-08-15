@@ -1,0 +1,30 @@
+.Modal {
+  @apply z-20 block w-125 rounded-lg bg-white px-5 pb-9 pt-2.5 shadow-classic;
+
+  position: fixed;
+  top: calc(50% - 36px);
+  left: calc(50% - 3px);
+  transform: translate(-50%, -50%);
+
+  > h2 {
+    @apply mt-3.75 select-none text-center text-3xl font-normal;
+  }
+
+  @media (max-width: 600px) {
+    @apply w-[390px] p-[10px] pb-6;
+
+    > h2 {
+      @apply mt-[10px] text-2xl;
+    }
+  }
+
+  @media (max-width: 420px) {
+    width: calc(100% - 15px * 2);
+  }
+
+  @media (max-width: 360px) {
+    > h2 {
+      @apply mt-0 text-xl;
+    }
+  }
+}
