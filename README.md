@@ -8,7 +8,7 @@ My pet project for my own use is a handy and beautiful web application with weat
 
 » React (Language: JavaScript)\
 » Sass / SCSS\
-» Library: axios, i18next, swiper, scroll-lock, lottie-web
+» Library: tailwind, axios, i18next, swiper, scroll-lock, lottie-web
 
 ## See my project⛅️
 
