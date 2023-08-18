@@ -1,4 +1,4 @@
-<div align='center'><img src='https://github.com/Lorneyq/Bimp/blob/main/public/favicon/mstile-70x70.png?raw=true' alt='Bip'/></div>
+<div align='center'><img src='https://github.com/Lorneyq/bimp/blob/main/public/favicon/mstile-70x70.png?raw=true' alt='Bimp'/></div>
 
 # Bimp — Weather Forecast Web App
 
@@ -10,7 +10,7 @@ My pet project for my own use is a handy and beautiful web application with weat
 » Sass / SCSS\
 » Library: axios, i18next, swiper, scroll-lock, lottie-web
 
-## See my project
+## See my project⛅️
 
 You can test Bimp on my vercel hosting [absolutely free!](http://bimp-forecast.vercel.app/)
 
