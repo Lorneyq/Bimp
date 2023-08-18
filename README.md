@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+<div align='center'><img src='https://github.com/Lorneyq/Bimp/blob/main/public/favicon/mstile-70x70.png?raw=true' alt='Bip'/></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bimp — Weather Forecast Web App
 
-## Available Scripts
+My pet project for my own use is a handy and beautiful web application with weather forecast. The whole project works on sending and receiving data, working with API servers. The user is offered to enter the name of his settlement, or find it by GPS coordinates, then he is provided with the most necessary information in a convenient "card", additional information is at the bottom. The user can also view the weather forecast for a week ahead, and for 3 three weeks back. [Starting with the version Bimp 2.0](https://github.com/Lorneyq/Bimp/commit/e476be29bc67ebe15563b4e54610653322030940) were added settings, and the ability to customize the application, namely: change the background, change the dark / light mode, and so on. In the future we plan to release a mobile application based on React Native. The project is frequently updated and getting better and better.
 
-In the project directory, you can run:
+## Stack used
 
-### `npm start`
+» React (Language: JavaScript)\
+» Sass / SCSS\
+» Library: axios, i18next, swiper, scroll-lock, lottie-web
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## See my project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can test Bimp on my vercel hosting [absolutely free!](http://bimp-forecast.vercel.app/)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Bimp demo](https://lorneyq.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbimp.63937706.jpg&w=1920&q=75)
