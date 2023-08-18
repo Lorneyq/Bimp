@@ -12,6 +12,6 @@ My pet project for my own use is a handy and beautiful web application with weat
 
 ## See my project⛅️
 
-You can test Bimp on my vercel hosting [absolutely free!](http://bimp-forecast.vercel.app/)
+You can test Bimp on my vercel hosting [absolutely free!](http://bimp-forecast.vercel.app/)👈
 
 ![Bimp demo](https://lorneyq.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbimp.63937706.jpg&w=1920&q=75)
